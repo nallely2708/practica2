@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta name="description"  content="Ejemplo de HTML5"/>
+       <meta name="Keywords" content="HTML5,CSS3,JavaScript"/>
+       <title> Agregar Empleado </title>
+   </head>
+   <body>
+       <div>
+          <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Laboral</legend>
+                     <label for="txtCodigo">Codigo</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCodigo" name="codigo" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">Fecha de ingreso</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtFecha" name="Fecha" />
+                     <br/>
+                     <br/>
+                     <label for="txtSeguridad">Seguridad Social</label><br/>
+                     <select name="Seguridad Social">
+                      <option selected="selected"/></option>
+                      <option>IMSS</option>
+                      <option>ISSSTE</option>
+                      <option>CRUZ ROJA</option>
+                      <option>CRUZ VERDE</option>
+
+                     <br/>
+                     <br/>
+                     <label for="txtNumero">Numero</label><br/>
+                     <input type="int" size="40" maxlength="255" id="txtNumero" name="numero" />
+                     <br/>
+                     <br/>
+                 </fieldset>
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+         <div>
+             <a href="maquetado/index.html">Maquetado</a>
+         </div>
+    </body>
+</html>
